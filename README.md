@@ -18,13 +18,3 @@ A **Herocraft Network** é mais que um servidor — é um universo! Criamos uma 
 - 🎮 **Minigames** — jogue com amigos em modos como BedWars, SkyWars e muito mais!
 
 ---
-
-## 🧱 Tecnologias Utilizadas
-
-- Java + Spigot/PaperMC
-- Plugins customizados
-- Banco de dados MySQL
-- Painel Web de administração (futuro)
-- Sistema de ranks, habilidades e economia balanceada
-
----
