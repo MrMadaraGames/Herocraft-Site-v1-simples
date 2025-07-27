@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    background: url('data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cfilter%20id%3D%22noise%22%3E%20%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%20%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.25%200%22%20%2F%3E%20%3C%2Ffilter%3E%20%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(to top, rgba(0, 0, 0, 0.439), rgba(0, 0, 0, 0.439)), url(background4k.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    animation: fade-in 2s ease forwards;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 1.5vw;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: #000000 0px 0px 10px
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2vw;
+}
+
+.nav-logo .nav-icon {
+    width: 3vw;
+    margin-right: 0.5vw;
+    filter: drop-shadow(#000000 0px 0px 10px);
+}
+
+.nav-logo .nav-title {
+    width: 12vw;
+    filter: drop-shadow(#000000 0px 0px 10px);
+}
+
+.nav-items {
+    padding-right: 2vw;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.nav-items a {
+    color: #ffffff;
+    padding-left: 3vw;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: 0.04vw;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 55vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    text-shadow: #000000 0px 0px 10px;
+    animation: fade-in 1.5s ease forwards;
+}
+
+.logo {
+    width: 40vw;
+    padding: 2vw;
+    filter: drop-shadow(#000000 0px 0px 10px);
+}
+
+.description {
+    text-align: center;
+    font-size: 1.6vw;
+    letter-spacing: 0.05vw;
+}
+
+.about-page {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 55vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    text-shadow: #000000 0px 0px 10px;
+    animation: fade-in 1.5s ease forwards;
+}
+
+.about-server {
+    text-align: center;
+    font-size: 1.6vw;
+    letter-spacing: 0.05vw;
+}
+
+.support-page {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 55vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    text-shadow: #000000 0px 0px 10px;
+    animation: fade-in 1.5s ease forwards;
+}
+
+.support-server {
+    text-align: center;
+    font-size: 1.6vw;
+    letter-spacing: 0.05vw;
+}
+
+.server-address {
+    position: absolute;
+    padding: 0.7vw;
+    right: 1vw;
+    bottom: 1vw;
+    border-radius: 0.5rem;
+    box-shadow: #636363 0px 0px 10px;
+    background: #ffffff34;
+    animation: fade-in 1s ease forwards;
+}
+
+.server-address a {
+    color: white;
+    text-decoration: none;
+    text-shadow: #000000 0px 0px 10px;
+    line-height: 1vw;
+}
+
+.server-address-full {
+    display: none;
+    position: absolute;
+    padding: 0.7vw;
+    right: 1vw;
+    bottom: 1vw;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: #636363 0px 0px 10px;
+    background: #ffffff34;
+    animation: fade-in 1s ease forwards;
+}
+
+.server-address-full a {
+    color: white;
+    text-decoration: none;
+    text-shadow: #000000 0px 0px 10px;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
